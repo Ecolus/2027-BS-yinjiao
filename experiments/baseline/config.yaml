@@ -1,0 +1,23 @@
+# EXP-00 Baseline 配置
+experiment_id: EXP-00
+name: baseline_chain_smoke_test
+description: 验证 数据源 → 通信 → 服务端 → App 全链路可用性
+
+device:
+  source: simulator        # simulator 或 esp8266
+  sample_rate_hz: 1        # 1 秒一次
+  payload_bytes: 256
+
+protocol:
+  mqtt:
+    broker: tcp://localhost:1883
+    qos: 1
+    topic_pub: "env/esp8266_01/data"
+  http:
+    endpoint: "http://localhost:8080/api/data"
+    poll_interval_s: 1
+
+network:
+  type: lan_wifi
+
+repetitions: 10            # Baseline 只需跑通，不要求 30 次

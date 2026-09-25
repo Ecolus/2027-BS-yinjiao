@@ -1,0 +1,45 @@
+# ---- 敏感信息 ----
+.env
+*.key
+*.pem
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pip-cache/
+
+# ---- 大数据 / 权重 / 模型 ----
+data/raw/
+data/dataset/
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.zip
+*.rar
+*.7z
+
+# ---- Node / 前端 ----
+node_modules/
+dist/
+build/
+
+# ---- Java / Android ----
+.gradle/
+*.iml
+.idea/
+local.properties
+captures/
+
+# ---- 系统 / 编辑器 ----
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# ---- 版权 PDF 与隐私数据 ----
+private/
+secrets/

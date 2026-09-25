@@ -2,7 +2,7 @@
 
 | 里程碑 | 目标日期 | 状态 |
 |---|---|---|
-| 仓库初始化完成（README + topic + task + technical_route） | 2026-09-26 | 🟡 进行中 |
+| 仓库初始化完成（README + topic + task + technical_route） | 2026-09-26 | ✅ 已完成 |
 | 参考文献第一轮核验完成（10–15 条进 verified_references.md） | 2026-09-30 | ⬜ 未开始 |
 | 精读 ≥5 篇文献，阅读卡入 reading_notes/ | 2026-10-08 | ⬜ 未开始 |
 | Baseline 链路打通（MQTT + HTTP 双通道出数） | 2026-10-08 | ⬜ 未开始 |

@@ -79,8 +79,6 @@
 - License：EPL-2.0 / EDL-1.0
 - 本项目修改内容：仅作为 broker 运行，未修改源码
 
-（后续如有其他参考项目在此补充）
-
 ## 十、环境与复现
 
 - 移动端：Android Studio + Java

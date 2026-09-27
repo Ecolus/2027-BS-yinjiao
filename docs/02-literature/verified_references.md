@@ -24,7 +24,7 @@
 | 12 | STANKOVIC J A, 2014. Research directions for the Internet of Things[J]. IEEE Internet of Things Journal. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.1109/JIOT.2014.2312291 |
 | 13 | SHELBY Z, HARTKE K, BORMANN C, 2014. The constrained application protocol (CoAP)[S/OL]. RFC 7252, IETF. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.17487/RFC7252 |
 | 14 | PATHAK A, HU Y C, ZHANG M, 2012. Where is the energy spent inside my app? fine grained energy accounting on smartphones with Eprof[C]//Proceedings of the 7th ACM European Conference on Computer Systems (EuroSys). Bern: ACM. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.1145/2168836.2168841 |
-| 15 | GOOGLE, 2024. Android developers documentation[EB/OL]. | 尹骄（AI 协助） | 2026-09-27 | 访问日期待补（国内需用镜像 developer.android.google.cn） |
+| 15 | GOOGLE, 2024. Android developers documentation[EB/OL]. | 尹骄（本人） | 2026-09-27 | 访问日期: 2026-09-27 ✅ 已通过国内镜像 developer.android.google.cn 打开确认 |
 | 16 | ESPRESSIF SYSTEMS, 2024. ESP8266 SDK documentation[EB/OL]. | 尹骄（本人） | 2026-09-27 | 访问日期: 2026-09-27 ✅ 已打开确认 |
 | 17 | 周超, 陈建辉, 骆绍烨, 2017. 物联网环境下HTTP与MQTT通讯协议比较探究[J]. 莆田学院学报, 24(5): 57-60. | 尹骄（知网） | 2026-09-27 | 已核验 |
 | 18 | 龚永罡, 付俊英, 汪昕宇, 等, 2017. MQTT协议在物联网中的应用研究[J]. 电脑与电信, (11): 89-91, 94. DOI: 10.15966/j.cnki.dnydx.2017.11.026 | 尹骄（知网） | 2026-09-27 | 已核验 |

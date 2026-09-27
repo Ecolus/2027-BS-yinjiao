@@ -10,19 +10,19 @@
 
 | # | 著录（GB/T 7714-2015） | 核验人 | 核验日期 | DOI / 链接 |
 |---|---|---|---|---|
-| 1 | NAIK N, 2017. Choice of effective messaging protocols for IoT systems: MQTT, CoAP, AMQP and HTTP[C]//2017 IEEE International Systems Engineering Symposium (ISSE). Vienna: IEEE. | 尹骄（AI 协助） | 2026-09-27 | DOI 待补（IEEE Xplore 页面复制） |
-| 2 | THANGAVEL D, MA X, VALERA A, et al., 2014. Performance evaluation of MQTT and CoAP via a common middleware[C]//2014 IEEE Ninth International Conference on Intelligent Sensors, Sensor Networks and Information Processing (ISSNIP). Singapore: IEEE. | 尹骄（AI 协助） | 2026-09-27 | DOI 待补 |
-| 3 | LIGHT R A, 2017. Mosquitto: server and client implementation of the MQTT protocol[J]. Journal of Open Source Software. | 尹骄（AI 协助） | 2026-09-27 | DOI 待补（JOSS 页面复制） |
-| 4 | DIZDAREVIĆ J, CARPIO F, JUKAN A, et al., 2019. A survey of communication protocols for Internet of Things and related challenges of fog and cloud computing integration[J]. ACM Computing Surveys. | 尹骄（AI 协助） | 2026-09-27 | arXiv:1804.01747；正式版卷期页码待补 |
-| 5 | OASIS, 2019. MQTT version 5.0[S/OL]. OASIS Standard. | 尹骄（AI 协助） | 2026-09-27 | 官方页面待补访问日期 |
-| 6 | FIELDING R T, RESCHKE J, 2014. Hypertext transfer protocol (HTTP/1.1): message syntax and routing[S/OL]. RFC 7230, IETF. | 尹骄（AI 协助） | 2026-09-27 | DOI 待补（RFC 官方页面） |
-| 7 | FIELDING R T, 2000. Architectural styles and the design of network-based software architectures[D]. Irvine: University of California, Irvine. | 尹骄（AI 协助） | 2026-09-27 | 已确认存在 |
-| 8 | AL-FUQAHA A, GUIZANI M, MOHAMMADI M, et al., 2015. Internet of Things: a survey on enabling technologies, protocols, and applications[J]. IEEE Communications Surveys & Tutorials. | 尹骄（AI 协助） | 2026-09-27 | 卷期页码/DOI 待补 |
-| 9 | ATZORI L, IERA A, MORABITO G, 2010. The Internet of Things: a survey[J]. Computer Networks. | 尹骄（AI 协助） | 2026-09-27 | 卷期页码/DOI 待补 |
-| 10 | GUBBI J, BUYYA R, MARUSIC S, et al., 2013. Internet of Things (IoT): a vision, architectural elements, and future directions[J]. Future Generation Computer Systems, 29(7). | 尹骄（AI 协助） | 2026-09-27 | 页码/DOI 待补 |
-| 11 | YASSEIN M B, SHATNAWI M Q, AL-ZOUBI D, 2016. Application layer protocols for the Internet of Things: a survey[C]//2016 International Conference on Engineering & MIS (ICEMIS). IEEE. | 尹骄（AI 协助） | 2026-09-27 | 页码/DOI 待补 |
-| 12 | STANKOVIC J A, 2014. Research directions for the Internet of Things[J]. IEEE Internet of Things Journal. | 尹骄（AI 协助） | 2026-09-27 | 卷期页码/DOI 待补 |
-| 13 | SHELBY Z, HARTKE K, BORMANN C, 2014. The constrained application protocol (CoAP)[S/OL]. RFC 7252, IETF. | 尹骄（AI 协助） | 2026-09-27 | DOI 待补 |
+| 1 | NAIK N, 2017. Choice of effective messaging protocols for IoT systems: MQTT, CoAP, AMQP and HTTP[C]//2017 IEEE International Systems Engineering Symposium (ISSE). Vienna: IEEE. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.1109/SysEng.2017.8088251 |
+| 2 | THANGAVEL D, MA X, VALERA A, et al., 2014. Performance evaluation of MQTT and CoAP via a common middleware[C]//2014 IEEE Ninth International Conference on Intelligent Sensors, Sensor Networks and Information Processing (ISSNIP). Singapore: IEEE. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.1109/ISSNIP.2014.6827678 |
+| 3 | LIGHT R A, 2017. Mosquitto: server and client implementation of the MQTT protocol[J]. Journal of Open Source Software. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.21105/joss.00265 |
+| 4 | DIZDAREVIĆ J, CARPIO F, JUKAN A, et al., 2019. A survey of communication protocols for Internet of Things and related challenges of fog and cloud computing integration[J]. ACM Computing Surveys. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.1145/3292674（ACM CSUR 正式版） |
+| 5 | OASIS, 2019. MQTT version 5.0[S/OL]. OASIS Standard. | 尹骄（AI 协助） | 2026-09-27 | 官方链接: https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html |
+| 6 | FIELDING R T, RESCHKE J, 2014. Hypertext transfer protocol (HTTP/1.1): message syntax and routing[S/OL]. RFC 7230, IETF. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.17487/RFC7230 |
+| 7 | FIELDING R T, 2000. Architectural styles and the design of network-based software architectures[D]. Irvine: University of California, Irvine. | 尹骄（AI 协助） | 2026-09-27 | 已确认存在（博士论文无 DOI） |
+| 8 | AL-FUQAHA A, GUIZANI M, MOHAMMADI M, et al., 2015. Internet of Things: a survey on enabling technologies, protocols, and applications[J]. IEEE Communications Surveys & Tutorials. | 尹骄（AI 协助） | 2026-09-27 | DOI 未检索到（页面未显示，可留空） |
+| 9 | ATZORI L, IERA A, MORABITO G, 2010. The Internet of Things: a survey[J]. Computer Networks. | 尹骄（AI 协助） | 2026-09-27 | DOI 未检索到（页面未显示，可留空） |
+| 10 | GUBBI J, BUYYA R, MARUSIC S, et al., 2013. Internet of Things (IoT): a vision, architectural elements, and future directions[J]. Future Generation Computer Systems, 29(7). | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.1016/j.future.2013.01.010 |
+| 11 | YASSEIN M B, SHATNAWI M Q, AL-ZOUBI D, 2016. Application layer protocols for the Internet of Things: a survey[C]//2016 International Conference on Engineering & MIS (ICEMIS). IEEE. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.1109/ICEMIS.2016.7745303 |
+| 12 | STANKOVIC J A, 2014. Research directions for the Internet of Things[J]. IEEE Internet of Things Journal. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.1109/JIOT.2014.2312291 |
+| 13 | SHELBY Z, HARTKE K, BORMANN C, 2014. The constrained application protocol (CoAP)[S/OL]. RFC 7252, IETF. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.17487/RFC7252 |
 | 14 | PATHAK A, HU Y C, ZHANG M, 2012. Where is the energy spent inside my app? fine grained energy accounting on smartphones with Eprof[C]//Proceedings of the 7th ACM European Conference on Computer Systems (EuroSys). Bern: ACM. | 尹骄（AI 协助） | 2026-09-27 | DOI: 10.1145/2168836.2168841 |
 | 15 | GOOGLE, 2024. Android developers documentation[EB/OL]. | 尹骄（AI 协助） | 2026-09-27 | 访问日期待补 |
 | 16 | ESPRESSIF SYSTEMS, 2024. ESP8266 SDK documentation[EB/OL]. | 尹骄（AI 协助） | 2026-09-27 | 访问日期待补 |
@@ -59,7 +59,7 @@
 
 ## 待办（需人工在数据库页面确认）
 
-1. 为 #1、#2、#3、#6、#8、#9、#10、#11、#12、#13 补 DOI（在 IEEE Xplore / JOSS / RFC 官方 / 出版社页面复制）。
+1. ~~为英文文献补 DOI~~ → 已完成 8 条（2026-09-27）；仅剩 #8 AL-FUQAHA、#9 ATZORI 未检索到 DOI（页面未显示，DOI 为可选字段可留空）；#7 博士论文无 DOI。
 2. 确认 #4、#10、#12 的卷期页码（AI 协助版本可能与正式版有出入，以数据库为准）。
 3. #15、#16 网页文档：记录实际访问日期（如 2026-09-27）。
 4. ~~中文文献 8 条核验~~ → 已完成（2026-09-27），见上表 #17–#24。

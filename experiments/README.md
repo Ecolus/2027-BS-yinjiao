@@ -7,9 +7,9 @@
 - `exp02_xxx/`：参数实验（QoS / payload）。
 - `exp03_xxx/`：异常实验（断网 / 弱网）。
 
-每个实验文件夹内统一包含：
+每个实验文件夹里统一放：
 
 - `config.yaml`：本次实验的配置（频率、QoS、payload、网络环境等）。
-- `command.txt`：复现本次实验的启动命令。
+- `command.txt`：复现本次实验要跑的启动命令。
 - `notes.md`：按实验记录模板写 Purpose / Configuration / Result / Conclusion / Problems。
-- `metrics.csv`：量化指标原始数据。
+- `metrics.csv`：量化指标的原始数据。

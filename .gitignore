@@ -33,6 +33,8 @@ build/
 .idea/
 local.properties
 captures/
+backend/target/
+
 
 # ---- 系统 / 编辑器 ----
 .vscode/

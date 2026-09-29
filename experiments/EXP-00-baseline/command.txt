@@ -1,0 +1,16 @@
+# EXP-00 启动顺序（三个终端分别执行）
+
+# 1) 启动后端（用 IDEA 运行 IotBaselineApplication，或命令行）
+#    cd backend
+#    mvn spring-boot:run
+
+# 2) 启动模拟数据源（另开终端，发 100 条）
+#    cd scripts
+#    python simulate_device.py --count 100
+
+# 3) Android Studio 运行 App，确认界面每秒刷新温湿度
+
+# 4) 发完 100 条后导出指标
+#    python export_metrics.py --out ../experiments/EXP-00-baseline/metrics.csv
+
+# 5) 浏览器访问 http://localhost:8080/api/data/count 确认条数 >= 100

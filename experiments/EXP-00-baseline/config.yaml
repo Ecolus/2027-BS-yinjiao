@@ -1,0 +1,12 @@
+# EXP-00 Baseline 配置
+experiment: EXP-00-baseline
+purpose: 验证 HTTP 通道端到端可用（模拟设备 -> Spring Boot -> App 轮询显示）
+channel: http
+http:
+  keep_alive: true
+  poll_interval_s: 1
+network: 本机 / 局域网 Wi-Fi
+qos: 不涉及
+payload: 固定 JSON（温湿度光照，约 120B）
+device: esp8266_01
+min_records: 100

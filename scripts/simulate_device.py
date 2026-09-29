@@ -18,9 +18,9 @@ import urllib.request
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--url", default="http://10.0.2.2:8080/api/data",
-                    help="服务端地址。模拟器跑在电脑上时用 http://localhost:8080/api/data；"
-                         "Android 模拟器访问电脑时用 http://10.0.2.2:8080/api/data")
+    p.add_argument("--url", default="http://localhost:8080/api/data",
+                    help="服务端地址。电脑本机跑脚本用 http://localhost:8080/api/data；"
+                         "Android 模拟器里访问电脑才用 http://10.0.2.2:8080/api/data")
     p.add_argument("--interval", type=float, default=1.0, help="发送间隔秒数")
     p.add_argument("--count", type=int, default=0, help="发多少条后停止，0 表示一直发")
     p.add_argument("--device", default="esp8266_01")

@@ -5,6 +5,7 @@ import com.bs.iot.device.DeviceDataRepository;
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
 import org.eclipse.paho.client.mqttv3.*;
+import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 import org.json.JSONObject;
 import org.springframework.stereotype.Component;
 
@@ -22,7 +23,7 @@ public class MqttSubscriber {
     public void start() {
         try {
             client = new MqttClient("tcp://localhost:1883", "iot-backend-" + System.currentTimeMillis(),
-                    new MqttDefaultPersistence());
+                    new MemoryPersistence());
             MqttConnectOptions opts = new MqttConnectOptions();
             opts.setAutomaticReconnect(true);
             opts.setCleanSession(true);

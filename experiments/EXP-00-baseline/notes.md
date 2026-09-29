@@ -29,3 +29,10 @@ HTTP 链路（模拟设备 -> Spring Boot -> H2 库）在本机跑通，100 条�
 ## Problems
 - 首次跑脚本时默认 URL 误写成 10.0.2.2（模拟器地址），本机连不上导致全部超时；改回 localhost 后正常。
 - Android 布局用了 android:gap（API 31+），minSdk 26 编译报错，已改为 layout_marginBottom。
+
+## MQTT 双通道验证（2026-09-30）
+在 HTTP 通道基础上增加 Mosquitto broker（本机 1883 端口），后端用 Eclipse Paho 订阅 env/+/data 存库，App 用 Paho Android Service 订阅同一 topic。
+- 模拟脚本同时发 HTTP POST 和 MQTT publish（topic env/esp8266_01/data，QoS1）。
+- App 顶部状态能区分"HTTP 轮询"和"MQTT 推送"两种来源；MQTT 推送下温度 26.6℃、湿度 64.9%、seq=41，数据实时到达。
+- 踩坑记录：Paho Android 1.1.1 与 AndroidX 不兼容，需在 gradle.properties 开 android.enableJetifier=true，并补 androidx.localbroadcastmanager 依赖和 WAKE_LOCK 权限。
+- 端到端延迟显示负值，原因是模拟器与宿主机时钟未同步，论文中需说明时钟校准，不影响链路本身。

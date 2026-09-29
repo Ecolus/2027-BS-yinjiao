@@ -24,7 +24,7 @@ scripts/simulate_device.py 生成的模拟数据，共 100 条（seq 1~100）。
 - 明细见 metrics.csv
 
 ## Conclusion
-HTTP 链路（模拟设备 -> Spring Boot -> H2 库）在本机跑通，100 条数据无丢失，延迟在毫秒级，符合预期。Android App 的轮询显示待界面编译修复后验证。
+HTTP 链路（模拟设备 -> Spring Boot -> H2 库）在本机跑通，100 条数据无丢失，延迟在毫秒级，符合预期。Android 模拟器轮询 /api/data/latest 成功显示温度 23.2℃、湿度 61.3%、端到端延迟 15ms，seq=100，通道完整闭环。
 
 ## Problems
 - 首次跑脚本时默认 URL 误写成 10.0.2.2（模拟器地址），本机连不上导致全部超时；改回 localhost 后正常。
